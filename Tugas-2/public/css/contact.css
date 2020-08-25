@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    padding-top: 50px;
+
+    width: 800px;
+    margin: auto;
+
+}
+
+.form a {
+    display: block;
+    margin-top: 15px;
+}
+
+form {
+    margin-bottom: 20px;
+    padding-left: 8px
+}
+
+.form ul li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+ul {
+    padding-top: 20px;
+}
+
+.content {
+    padding: 5px;
+}
+
+input {
+    margin-left: 90px
+}
+
+.radio1 {
+    display: inline=block;
+    margin-left: 135px;
+}
+
+.radio2 {
+    margin-left: 34px;
+}
+
+textarea {
+    margin-left: 50px;
+}
+
+.button {
+    margin: 0px
+}

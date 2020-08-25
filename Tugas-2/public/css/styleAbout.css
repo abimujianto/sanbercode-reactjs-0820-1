@@ -1,0 +1,20 @@
+.data-wrap {
+    margin: auto;
+    width: 795px;
+    margin-bottom: 30px;
+}
+
+.data-wrap a {
+    display: block;
+    margin-top: 20px;
+}
+
+.data-wrap ol {
+    margin-left: -60px;
+}
+
+
+
+.data-wrap h1 {
+    text-align: center;
+}
