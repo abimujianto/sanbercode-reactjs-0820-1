@@ -40,9 +40,9 @@ console.log("------------SOAL 4--------------");
 var arrayDaftarPeserta = ["Asep", "laki-laki", "baca buku", 1992];
 var objectpeserta = {
   nama: arrayDaftarPeserta[0],
-  "jenis kelamin": arrayDaftarPeserta[1],
+  jenis_kelamin: arrayDaftarPeserta[1],
   hobi: arrayDaftarPeserta[2],
-  "tahun lahir": arrayDaftarPeserta[3],
+  tahun_lahir: arrayDaftarPeserta[3],
 };
 console.log(objectpeserta);
 
@@ -52,25 +52,25 @@ var arrObj = [
   {
     nama: "strawberry",
     warna: "merah",
-    "ada bijinya": "tidak",
+    ada_bijinya: "tidak",
     harga: 9000,
   },
   {
     nama: "jeruk",
     warna: "oranye",
-    "ada bijinya": "ada",
+    ada_bijinya: "ada",
     harga: 8000,
   },
   {
     nama: "Semangka",
     warna: "Hijau & Merah",
-    "ada bijinya": "ada",
+    ada_bijinya: "ada",
     harga: 10000,
   },
   {
     nama: "Pisang",
     warna: "Kuning",
-    "ada bijinya": "tidak",
+    ada_bijinya: "tidak",
     harga: 5000,
   },
 ];
@@ -84,11 +84,21 @@ function fil(nmbahData) {
   dataFilm.push(nmbahData);
 }
 
+function fil2(nmbahData2) {
+  dataFilm.push(nmbahData2);
+}
+
 fil({
   nama: "McJackson",
   genre: "thriler",
-  durasi: "50mins",
+  durasi: "2 jam",
   tahun: 2000,
+});
+fil2({
+  nama: "Sparrow Movie",
+  genre: "Comedy",
+  durasi: "1.30 jam",
+  tahun: 2020,
 });
 
 console.log(dataFilm);
